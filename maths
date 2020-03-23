@@ -1,0 +1,42 @@
+package calc;
+
+public class Runner {
+	
+	public static void main (String[]args) {
+		String myName = "john"; // String --> just text
+		int myNumber = 23456; // [The type] [name of our choice] = [the value]
+		System.out.println(myName);
+		//method call to add numbers	
+		System.out.println(addNum(10, 50));
+		System.out.println(addNum(3000, 400));
+		// method to subtract numbers 
+		System.out.println(subNum(100, 40));
+		//method to multiply numbers 
+		System.out.println(xNum(2, 10));
+		//method to divide numbers
+		System.out.println(divNum(50, 5));
+		
+	}
+	
+	public static int addNum(int a, int b) {
+		return a+b; // 60
+		
+	}
+	// subNum
+	public static int subNum(int a, int b) {
+		return a-b;
+	}
+	
+	//multiplyNumber   *
+	public static int xNum(int a, int b)  {
+		return a*b;
+	}
+	
+	
+	//divideNumber /
+	public static int divNum(int a, int b)  {
+		return a/b;
+	}
+	
+
+}
